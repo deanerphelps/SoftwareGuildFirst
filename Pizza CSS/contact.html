@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+	Name: Dean Phelps
+	Date Published: 4-29-2019
+	Revision: Original
+-->
+<html>
+		<head>
+				<title>Deanarinos Pizzaria</title>
+			<meta charset="utf-8"
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link href="bootstrap.css" rel="stylesheet">
+				<link href="restaurantStyles.css" rel="stylesheet" type="text/css" 
+				<style>
+					
+				</style>
+		</head>
+		<body>
+		
+			<header>
+				<h1><span style="font-family:Arial">Deanarinos Pizzaria Contact</span></h1>
+			</header>
+			
+			<nav>
+				<hr />
+				<!-- Links to the Menu and Contact pages. -->
+				<p>
+					<a href="home.html">Home Page</a>
+					<a href="menu.html">Menu</a>.
+					<a href="projects.html">Contact Us</a>
+				</p>
+				<hr />
+			</nav>
+			
+			<section>
+				<form action="contact.html" method="POST">
+            Name: <input type="text" name="nameInput" /><br />
+            Email: <input type="email" name="emailInput" /><br />
+            Phone: <input type="tel" name="phoneInput" /><br />
+            Reason for Inquiry: <select name="Reason for Inquiry">
+                <option value="Cater">Catering</option>
+                <option value="Private">Private Party</option>
+                <option value="Feedbacks">Feedback</option>
+				<option value="Other">Other</option>
+            </select><br />			
+            Additional Information: <textarea name="additionalInformation"></textarea><br />	
+			Have you been to the restaurant?
+            <input type="radio" name="answer" value="NO" />No <input type="radio" name="answer" value="YES" />Yes<br />
+            Best days to contact you: 
+            <input type="checkbox" name="myChoices" value="Monday" checked/>M
+            <input type="checkbox" name="myChoices" value="Tuesday" checked/>T
+            <input type="checkbox" name="myChoices" value="Wednesday" checked/>W
+            <input type="checkbox" name="myChoices" value="Thursday" checked/>Th
+			<input type="checkbox" name="myChoices" value="Friday" checked/>F<br />
+
+
+            <input type="submit" />
+        </form>							
+			</section>
+		
+		</body>
+		<footer>
+			<hr />
+			<p>221B Baker Street, London UK<p/>
+			<p>867 - 5309</p>
+		</footer>
+</html>

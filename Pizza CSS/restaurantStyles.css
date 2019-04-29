@@ -1,0 +1,23 @@
+/*
+Creator: Dean Phelps
+Date Published: 4-29-2019
+*/
+
+	body {
+		background-color: lightblue;
+	}
+	header, footer {
+			background-color: white;
+			padding: 30px;
+			
+	}
+	nav {
+		background-color: #efefef;
+		padding: 10px;
+		
+	}
+	title {
+		font-family: helvetica;
+	}
+	
+
