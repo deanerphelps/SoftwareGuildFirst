@@ -1,2 +1,2 @@
 # SoftwareGuildFirst
-My first repo from the SG
+This was a restraunt site that I made before starting the Software Guild. I was rather new to developing at the time.
